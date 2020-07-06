@@ -1,0 +1,41 @@
+header{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 2%;
+}
+body{
+    background-color: #C6DEF1;
+}
+/* #vid2{
+
+    transform: rotate(90deg); */
+/* } */
+/* .video{
+    float:left;
+
+} */
+
+#videos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+     
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;  
+    margin: auto;
+    align-items: center;
+  }
+  
+  #videos video {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: 400 !important;
+    align-items: center;
+    border: 5px solid white;
+  }
